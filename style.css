@@ -64,14 +64,17 @@ body {
 
   /* Arrow style */
   .back-to-top {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
+    background-image: url('arrow-icon.png');
     width: 40px;
     height: 40px;
-    background: #0077cc;
-    color: #fff;
+    color: #000000;
     border-radius: 50%;
     text-align: center;
     font-size: 24px;
@@ -80,9 +83,9 @@ body {
   }
   
   .back-to-top:hover {
-    background: #005c99;
     color: #fff;
     text-decoration: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
   }
   
   .back-to-top i {
