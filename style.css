@@ -1,0 +1,126 @@
+/* Set body font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Set link color */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Set main heading styles */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #007bff;
+  }
+  
+  /* Set section heading styles */
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  /* Set card styles */
+  .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-text {
+    margin-bottom: 0;
+  }
+  
+  /* Set button styles */
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Set container styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  /* Set media query for mobile devices */
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  p {
+    font-size: 1rem;
+    }
+    
+    .card-deck {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-title {
+    font-size: 1.2rem;
+    }
+    
+    .card-text {
+    font-size: 1rem;
+    }
+    
+    .card-body {
+    padding: 1rem;
+    }
+    
+    #contact {
+    text-align: center;
+    }
+    
+    #contact a {
+    color: #007bff;
+    }
+    
+    #contact a:hover {
+    color: #0056b3;
+    }
